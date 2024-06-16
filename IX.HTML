@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nuooossa</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
+</head>
+<body>
+	<div class="geral">
+		<div class="form">
+
+			<form>
+				<input type="password" id="senha" placeholder="senha">
+				<input type="submit" onclick= "logar(); return false" value="confirmar" id="botao" placeholder="tem certeza?">
+			</form>
+
+			<script>
+				function logar(){
+					var senha = document.getElementById('senha').value;
+
+					if (senha=="souencrenqueira") {
+
+						location.href= "algumacoisa/algumacoisa.html";
+
+					}else{
+
+						alert('tente novamente')
+
+					}
+				}
+			</script>
+		</div>
+	</div>
+</body>
+</html>
